@@ -1,0 +1,54 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 73, 133);
+}
+.hola{
+    background-image: url("/img/grupo2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 10rem;
+}
+.lol{
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    
+}
+.lol h1{
+    font-weight: normal;
+    color: white;
+}
+.equipo{
+    display: flex;
+}
+.Persona1{
+    background-color:green;
+    margin: 1rem;
+    padding: 2rem;
+    width: 50%;
+    border-radius: 3rem;
+}
+.Persona1:hover{
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.joaco{
+    height: 300px;
+    width: 300px;
+}
+.nico{
+    height: 300px;
+    width: 300px;
+}
+.claudia{
+    height: 300px;
+    width: 300px;
+}
+.malcom{
+    height: 300px;
+    width: 300px;
+}
